@@ -2,12 +2,13 @@
 *{
     padding:1px;
     margin:2px;
-    background-color:white;
+    background-color:#fff;
     min-width: 100%vw;
     max-width: 100%vw;
     min-height: 100%vh;
     max-height: 100%vh;
-    zoom: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
@@ -40,9 +41,6 @@
     text-align: center;
     zoom: 300%;
     overflow: hidden;
-
-    
-    
 }
 
 
@@ -218,32 +216,76 @@
 
    
 }
+
 .footer{
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 200px;
+    height: 300px;
+    padding: 0;
+    cursor:pointer;
 }
 
-.section1{
-    width: 200px;
-    height: 295px;
-    text-align: center;
-}
-
-
-.image{
-    zoom: 70%;
-    position: relative;
-    bottom: 8px;
-}
-.imagem{
-    position: relative;
-    bottom: 35px;
+ .sections{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:stretch;
+    width: 100%;
+    height: 290px;
+    margin: 0;
+}
+
+.empresa{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+   
+}
+
+.inicio{
+    width:25%;
+    text-align: center;
+    height: 100%;
+  
+}
+
+.payment{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+  
+}
+
+.atenddant{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    
+}
+
+
+.im{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-between;
     zoom: 130%;
+}
+
+.goo{
+    zoom: 600%;
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
 
 }
-.im{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+
+p{
+    cursor: pointer;
 }
+
